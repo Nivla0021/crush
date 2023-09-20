@@ -21,6 +21,12 @@ body {
   animation: a 0.5s 1 linear;
 }
 
+@media (max-width: 750px) {
+    body{
+        width: 749px;
+    }
+  }
+
 @keyframes a {
   0% {
     transform: scale(0.7, 1.3);
